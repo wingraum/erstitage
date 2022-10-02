@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { getFirestore, addDoc, collection } from 'firebase/firestore';
 import {db} from "./firebase.js"
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -77,7 +78,7 @@ const Contact = () => {
         style={{ background: loader ? "0070f3" : "#0070f3" }}
         
       >
-       <a href="/mitgliedwerden"> Senden</a>
+      <Link href="/mitgliedwerden"><a> Senden</a></Link> 
       </button>
     </form>
     </>  );

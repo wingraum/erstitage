@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/mitgliedwerden": [
+    "/socialmedia": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/mitgliedwerden.js"
+      "static/chunks/pages/socialmedia.js"
     ]
   },
   "ampFirstPages": []

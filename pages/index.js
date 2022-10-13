@@ -24,6 +24,14 @@ export default function Home() {
         <div className={styles.grid} >
     <Link href="/anmeldung"><a className={styles.card} style={{backgroundColor:"gold"}}><h2>VWI Anmeldung</h2><p>Melde die hier beim VWI um nichts wichtiges zu Verpassen.</p></a></Link>
 
+    <Link href="/socialmedia"><a
+            
+            className={styles.card}
+          >
+            <h2>Social Media</h2>
+            <p>Hier findest du eine Übersicht aller wichtigen Social Media Kanälen.</p>
+          </a></Link>
+
           <Link href="/erstitage"><a  className={styles.card}>
             <h2>Die Ersti Tage</h2>
             <p>Finde hier den Terminplan mit allen Aktivitäten der Ersti-Tage</p>

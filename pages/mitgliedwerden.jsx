@@ -9,7 +9,7 @@ export default function Mitgliedwerden() {
 
       <main className={styles.main}>
         <h1 className={styles.title} style={{marginBottom:"60px"}}>
-          Du hast es fast <div >geschafft!</div>
+          Du hast es fast <div>geschafft!</div>
         </h1>
 
         
@@ -21,7 +21,7 @@ export default function Mitgliedwerden() {
 
           <p className={styles.description}>
             Lade dir bitte die Anmeldung herunter und schicke sie ausgefüllt an:
-            <div style={{color:"#0070f3", fontWeight:"bold"}}> info@vwi.org</div>
+            <div style={{color:"#0070f3", fontWeight:"bold"}}> melvin.arndt@vwi-ks.de</div>
         </p>
         </div>
       </main>
